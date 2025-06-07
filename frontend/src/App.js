@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Counter from './Counter';
 import './App.css';
 
 const App = () => {
@@ -37,6 +38,8 @@ const App = () => {
         <p>{fact}</p>
         <button onClick={fetchFact}>New Fact</button>
       </div>
+
+      <Counter />
     </div>
   );
 };
